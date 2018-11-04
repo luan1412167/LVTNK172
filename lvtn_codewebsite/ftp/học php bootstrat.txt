@@ -1,0 +1,24 @@
+PHP
+- d? hi?n th?  echo "hello world"
+'</br>' xu?ng dòng
+- Bi?n b?t d?u :  & không du?c dùng d?u cách,phân bi?t ch? hoa ch? thu?ng
+-th? <meta charset="UTF-8" />  dùng d? miêu t? d?c tính .
+-in d?m <strong>... </strong>
+-Dùng d?u nháy don thì dùng d?u ch?m d? n?i chu?i
+-Ð?m s? kí t? chu?i strlen(chu?i)
+-H?ng s? define ("user",'luân')
+
+
+
+
+bootstrat
+<div class="container">
+....
+</div>
+thì thi?t l?p màn hình kho?ng 960 nhân 720
+<div class="container-fluid">
+....
+</>div
+full màn hình 
+
+

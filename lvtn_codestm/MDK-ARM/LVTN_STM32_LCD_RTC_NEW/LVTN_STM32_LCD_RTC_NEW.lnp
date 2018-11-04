@@ -1,0 +1,29 @@
+--cpu Cortex-M4.fp
+"lvtn_stm32_lcd_rtc_new\startup_stm32f407xx.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_flash_ex.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_flash_ramfunc.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_rcc.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_flash.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_cortex.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_pwr.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_rcc_ex.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_tim.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_tim_ex.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_i2c.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_gpio.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_dma.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_dma_ex.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_uart.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_i2c_ex.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_pwr_ex.o"
+"lvtn_stm32_lcd_rtc_new\system_stm32f4xx.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_it.o"
+"lvtn_stm32_lcd_rtc_new\stm32f4xx_hal_msp.o"
+"lvtn_stm32_lcd_rtc_new\main.o"
+"lvtn_stm32_lcd_rtc_new\lcd.o"
+--library_type=microlib --strict --scatter "LVTN_STM32_LCD_RTC_NEW\LVTN_STM32_LCD_RTC_NEW.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LVTN_STM32_LCD_RTC_NEW.map" -o LVTN_STM32_LCD_RTC_NEW\LVTN_STM32_LCD_RTC_NEW.axf
